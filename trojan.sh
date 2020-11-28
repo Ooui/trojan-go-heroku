@@ -17,7 +17,7 @@ install -d /etc/trojan-go
 cat << EOF > /etc/trojan-go/config.json
 {
     "password": [
-        "$PASSWORD"
+        "$UUID"
     ],
     "websocket": {
         "enabled": true,
