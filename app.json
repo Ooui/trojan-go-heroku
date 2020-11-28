@@ -1,6 +1,6 @@
 {
     "name": "trojan-go-heroku",
-    "description": "Deploy trojan-go on heroku",
+    "description": "Deploy trojan-go on Heroku",
     "keywords": ["trojan-go"],
     "env": {
         "PASSWORD": {
