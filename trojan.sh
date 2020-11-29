@@ -21,11 +21,11 @@ cat << EOF > /etc/trojan-go/config.json
     ],
     "websocket": {
         "enabled": true,
-        "path": "/app",
-#        "host": ""
+        "path": "/app"
+
     }
 }
 EOF
-
+#        "host": ""
 # run trojan
 /usr/local/bin/trojan-go -config /etc/trojan-go/config.json
