@@ -3,10 +3,16 @@
     "description": "Deploy trojan-go on Heroku",
     "keywords": ["trojan-go"],
     "env": {
-        "UUID": {
-            "description": "trojan-go password",
-            "value": "2e3b797c-16d0-4c45-b010-9454b1da655a"        
+        "APP_SITE": {
+            "description": "App 站点名称，格式如下示范值。请一定与上面的 App name 完全一致填写，不能啥都不填，因为示范值 YourAppName 是无效的。",
+            "value": "YourAppName.herokuapp.com"
+        },
+     
+        "PASSWORD": {  
+            "description": "trojan-go 密码, 请使用 uuidgenerator.net 生成一个新的 UUID 替换当前这个, 否则 GFW 很快会封了这服务端.",
+            "value": "2e3b797c-16d0-4c45-b010-9454b1da655a"
         }
+
     },
     "website": "https://github.com/githubhehe",
     "repository": "https://github.com/githubhehe/trojan-go-heroku",
