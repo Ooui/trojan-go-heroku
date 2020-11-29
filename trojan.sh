@@ -17,15 +17,15 @@ install -d /etc/trojan-go
 cat << EOF > /etc/trojan-go/config.json
 {
     "password": [
-        "$UUID"
+        "$PASSWORD"
     ],
     "websocket": {
         "enabled": true,
         "path": "/app"
-
+        "host": "$APP_SITE"
     }
 }
 EOF
-#        "host": ""
+
 # run trojan
 /usr/local/bin/trojan-go -config /etc/trojan-go/config.json
