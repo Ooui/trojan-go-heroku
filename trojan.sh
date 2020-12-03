@@ -17,10 +17,10 @@ install -d /etc/trojan-go
 cat << EOF > /etc/trojan-go/config.json
 {
     "run_type": "server",
-    "local_addr": "127.0.0.1",
-    "local_port": 1080,
-    "remote_addr": "$APP_SITE",
-    "remote_port": 443
+    "local_addr": "0.0.0.0",
+    "local_port": 443,
+    "remote_addr": "127.0.0.1",
+    "remote_port": 80,
     "password": [
         "$PASSWORD"
     ],
