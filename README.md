@@ -1,4 +1,4 @@
-# trojan-go Heroku (本项目未完成，正在努力中……)
+# trojan-go Heroku (本项目未完成……)
 
 
 
