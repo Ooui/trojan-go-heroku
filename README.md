@@ -14,9 +14,6 @@
 
 
 
-经测试本镜像不会因为大量占用资源而被封号。
-
-
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fgithubhehe%2Ftrojan-go-heroku)
 
@@ -64,7 +61,7 @@ addEventListener(
 
         let url=new URL(event.request.url);  
 
-        url.hostname="xx.xxxx.xx";//你的heroku域名    
+        url.hostname="xx.herokuapp.com";  //你的heroku域名    
 
         let request=new Request(url,event.request);  
 
