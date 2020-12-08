@@ -3,6 +3,11 @@
     "description": "Deploy trojan-go on Heroku",
     "keywords": ["trojan-go"],
     "env": {
+        
+        "APP": {  
+            "description": "把 app 的名字复制到这里",
+            "value": ""
+        },
 
         "PASSWORD": {  
             "description": "trojan-go 密码, 请使用 uuidgenerator.net 生成一个新的 UUID 替换当前这个, 否则 GFW 很快会封了这服务端.",
